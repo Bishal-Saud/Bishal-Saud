@@ -1,0 +1,17 @@
+#first-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+#form{
+display: flex;
+flex-direction: column;
+
+}
+
+.inp{
+    margin: 10px 0;
+}

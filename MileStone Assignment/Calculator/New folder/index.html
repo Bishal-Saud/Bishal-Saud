@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <input type="text" id="num1" placeholder="Enter the first number">
+  <input type="text" id="num2" placeholder="Enter the second number">
+  <button id="btnAdd">Add</button>
+  <button id="btnSubtract">Subtract</button>
+  <button id="btnMultiply">Multiply</button>
+  <button id="btnDivide">Divide</button>
+  <p id="result"></p>
+
+  <script>
+    const num1Input = document.getElementById("num1");
+    const num2Input = document.getElementById("num2");
+    const addButton = document.getElementById("btnAdd");
+    const subtractButton = document.getElementById("btnSubtract");
+    const multiplyButton = document.getElementById("btnMultiply");
+    const divideButton = document.getElementById("btnDivide");
+    const resultElement = document.getElementById("result");
+
+    addButton.addEventListener("click", () => {
+      const num1 = parseFloat(num1Input.value);
+      const num2 = parseFloat(num2Input.value);
+      const result = num1 + num2;
+      resultElement.textContent = `Result: ${result}`;
+    });
+
+    subtractButton.addEventListener("click", () => {
+      const num1 = parseFloat(num1Input.value);
+      const num2 = parseFloat(num2Input.value);
+      const result = num1 - num2;
+      resultElement.textContent = `Result: ${result}`;
+    });
+
+    multiplyButton.addEventListener("click", () => {
+      const num1 = parseFloat(num1Input.value);
+      const num2 = parseFloat(num2Input.value);
+      const result = num1 * num2;
+      resultElement.textContent = `Result: ${result}`;
+    });
+
+    divideButton.addEventListener("click", () => {
+      const num1 = parseFloat(num1Input.value);
+      const num2 = parseFloat(num2Input.value);
+      const result = num1 / num2;
+      resultElement.textContent = `Result: ${result}`;
+    });
+  </script>
+</body>
+</html>

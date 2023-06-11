@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section id="first-sec">
+        <!-- <h2 class="heading">Use keys on your computer Don't use this keys</h2>
+        <input type="text" class="blank-box num1" placeholder="Enter First Number">
+        <input type="text" class="blank-box num2" placeholder="Enter Second number"> -->
+        <!-- <p id="result"></p> -->
+
+        
+    
+            <h1>Calculator</h1>
+            <input type="text" id="inp" placeholder="Enter Value..." readonly="">
+        <div class="big-box">
+            
+            <button class="btnN btn" id="zero"  onclick="AT_add(1)">0</button>
+            <button class="btnN btn" id="one"  onclick="AT_add(1)">1</button>
+            <button class="btnN btn" id="two"  onclick="AT_add(2)">2</button>
+            <button class="btnN btn" id="three"  onclick="AT_add(3)">3</button>
+            <button class="btnN btn" id="four"  onclick="AT_add(4)">4</button>
+            <button class="btnN btn" id="five"  onclick="AT_add(5)">5</button>
+            <button class="btnN btn" id="six"  onclick="AT_add(6)">6</button>
+            <button class="btnN btn" id="seven"  onclick="AT_add(7)">7</button>
+            <button class="btnN btn" id="eight"  onclick="AT_add(8)">8</button>
+            <button class="btnN btn" id="nine"  onclick="AT_add(9)">9</button>
+            <button class="btnN btn" onclick="AT_add('+')">+</button>
+            <button class="btnN btn" onclick="AT_add('-')">-</button>
+            <button class="btnN btn" onclick="AT_add('/')">/</button>
+            <button class="btnN btn" onclick="AT_add('*')">*</button>
+
+            <button class="btnN btn" onclick="exe()">=</button>
+            <button class="btnN btn" onclick="cancel()">⌫</button>
+            <button class="btnN btn" onclick="cls()">c</button>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
