@@ -1,0 +1,15 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "This package of json ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test me"
+  },
+  "keywords": [
+    "PW",
+    "SKILLs"
+  ],
+  "author": "Bishal saud",
+  "license": "ISC"
+}
